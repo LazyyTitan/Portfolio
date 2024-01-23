@@ -167,6 +167,12 @@ header ul li a.active {
     margin-top: -20px;
     padding: 30px;
   }
+  .container .content2 {
+    transform: translateX(0px);
+    max-width: 100%;
+    margin-top: -20px;
+    padding: 30px;
+  }
   header {
     position: relative;
     flex-direction: column;
@@ -192,6 +198,10 @@ header ul li a.active {
     margin-bottom: 50px;
   }
   .content a {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  .content2 a {
     font-size: 1em;
     padding: 10px 20px;
   }
@@ -222,6 +232,12 @@ header ul li a.active {
     font-size: 2em;
   }
   .content p {
+    font-size: 0.7em;
+  }
+  .content2 h2 {
+    font-size: 2em;
+  }
+  .content2 p {
     font-size: 0.7em;
   }
   .imgBox img {
@@ -266,5 +282,5 @@ header ul li a.active {
 }
 .imgBox2 img {
   width: 400px;
-  
+  margin-bottom: 50px;
 }
